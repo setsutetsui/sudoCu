@@ -42,7 +42,14 @@ int menu() {
     }
 }
 
+int[9][9] generateBoard() {
+    int board[9][9];
+    return board;
+}
 
+void newGame() {
+    board = generateBoard();
+}
 
 int main() {
     static int board[9][9];
